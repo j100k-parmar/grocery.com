@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/grocery.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <title>Grocery & Staples</title>
+</head>
+
+<body>
+    <nav>
+        <span style="font-size:45px;cursor:pointer;float:left; color:white" onclick="openNav()">&#9776;</span>
+
+        <div class="logo"><img src="img/logo.png" alt=""></div>
+        <div class="search-container">
+            <form action="/action_page.php">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+        <div class="account"></div>
+        <div class="cart">
+            <a href="index.html"><i class="fas fa-shopping-basket" style="color:red;">
+                    </i>
+                </a>
+        </div>
+    </nav>
+    <div id="myNav" class="overlay">
+
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="index.html">Super Store</a>
+            <a href="grocery.html">Grocery & Staples</a>
+            <a href="fruits.html">Vegetables & Fruits</a>
+            <a href="personal_care.html">Personal Care</a>
+            <a href="house_hold.html">Household Items</a>
+            <a href="kitchen.html">Kitchen & Dining Needs</a>
+
+        </div>
+
+    </div>
+
+
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">Super Store</a></li>
+            <li>
+                <a href="grocery.html">Grocery & Staples</a>
+            </li>
+            <li>
+                <a href="fruits.html">Vegetables & Fruits</a>
+            </li>
+            <li>
+                <a href="personal_care.html">Personal Care</a>
+            </li>
+            <li>
+                <a href="house_hold.html">Household Items</a>
+            </li>
+            <li>
+                <a href="kitchen.html">Kitchen & Dining Needs</a>
+            </li>
+
+        </ul>
+    </div>
+    <section class="container">
+        <div class="fruit">
+            <a href="#"><img src="img/Grocery/besan.webp" alt=""></a>
+            <a href="#"><img src="img/Grocery/chora.jpg" alt=""></a>
+            <a href="#"><img src="img/Grocery/masoor dar.webp" alt=""></a>
+            <a href="#"><img src="img/Grocery/moraiyo.webp" alt=""></a>
+            <a href="#"><img src="img/Grocery/oil-2.webp" alt=""></a>
+        </div>
+        <div class="fruit">
+            <a href="#"><img src="img/Grocery/poha.webp" alt=""></a>
+            <a href="#"><img src="img/Grocery/raisin.webp" alt=""></a>
+            <a href="#"><img src="img/Grocery/salt.webp" alt=""></a>
+            <a href="#"><img src="img/Grocery/sambar.webp" alt=""></a>
+            <a href="#"><img src="img/Grocery/sugar.webp" alt=""></a>
+        </div>
+
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <div class="footer_row">
+                <div class="footer_data">
+                    <div class="payment">
+                        <ul>
+                            <li>
+                                <h4>FoodTaxi</h4>
+                            </li>
+                            <a href="#">
+                                <li>About Us</li>
+                            </a>
+                            <a href="#">
+                                <li>In News</li>
+                            </a>
+                            <a href="#">
+                                <li>Green veggie</li>
+                            </a>
+                            <a href="#">
+                                <li>Privacy Policy</li>
+                            </a>
+                            <a href="#">
+                                <li>Terms and Conditions</li>
+                            </a>
+                            <a href="#">
+                                <li>Careers At FoodTexi</li>
+                            </a>
+
+                        </ul>
+                    </div>
+
+
+                    <div class="payment">
+                        <ul>
+                            <li>
+                                <h4>Help</h4>
+                            </li>
+                            <a href="#">
+                                <li>FAQs</li>
+                            </a>
+                            <a href="#">
+                                <li> Us</li>
+                            </a>
+                            <a href="#">
+                                <li> Wallet FAQs</li>
+                            </a>
+                            <a href="#">
+                                <li> Wallet T&Cs</li>
+                            </a>
+                            <a href="#">
+                                <li>Vendor Connect</li>
+                            </a>
+                            <a href="#">
+                                <li>E-Invoice Compliance for bigbasket Vendors</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer_data">
+                    <div class="payment">
+                        <ul>
+                            <li>
+                                <h4>Download Our App</h4>
+                            </li>
+                            <a href="#">
+                                <li><img src="img/Google-App-store-icon.png" alt=""></li>
+                            </a>
+                            <a href="#">
+                                <li><img src="img/Apple-App-store-icon.png" alt=""></li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="payment">
+                        <ul>
+                            <li>
+                                <h4>Get Social With Us</h4>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                <a href="#"><i class="fab fa-pinterest"></i></a>
+                                <a href="#"><i class="fab fa-twitter-square"></i></a>
+                                <a href="#"><i class="fab fa-instagram-square"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </footer>
+    <div class="copyright">
+        <p>Copyright © 2020-2022 Supermarket Grocery Supplies Pvt Ltd</p>
+    </div>
+
+    <script src="JavaScript/grocery.js "></script>
+</body>
+
+</html>
